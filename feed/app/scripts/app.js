@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('.App', [])
+angular.module('readerApp', [])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {

@@ -1,10 +1,10 @@
 'use strict';
 
-angular.module('.App')
+angular.module('readerApp')
   .controller('MainCtrl', function ($scope) {
     $scope.awesomeThings = [
-      'HTML5 Boilerplate',
       'AngularJS',
-      'Karma'
+      'Karma',
+      'Bootstrap'
     ];
   });
